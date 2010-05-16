@@ -10,6 +10,7 @@ Source0:	http://www.fourmilab.ch/webtools/%{name}/demoroniser.zip
 # Source0-md5:	a0da935a4734f858ed6a9f57b70f2a66
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	sed >= 4.0
+BuildRequires:	unzip
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
